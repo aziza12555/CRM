@@ -4,7 +4,7 @@ import ChartsSection from "./_components/chart-section";
 function Admin() {
   return (
     <div>
-      <div className="flex-1 bg-black p-6 overflow-auto">
+      <div className="flex-1  p-6 overflow-auto">
         <ChartsSection />
       </div>
       <WorkloadSection />
